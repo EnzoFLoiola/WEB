@@ -1,0 +1,33 @@
+/*
+MODELO DE CAIXA
+*/
+/*.conteudo{
+    border: 1px solid red;
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+
+    /*padding: 20px 15px 10px 5px;*/
+    /*padding: 20px 10px;*/
+
+    /*padding: 20px;
+
+    AS PROPRIEDADES DO MARGIN(MARGEM) SÃO IGUAIS A 
+    DA BORDER(BORDA) E DO PADDING(ESPAÇAMENTO INTERNO)
+    margin: 20px;
+
+    width: 150px;
+}*/
+
+#noticia{
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid gray
+}
+
+h2{
+    margin: 0px;
+}
