@@ -6,13 +6,14 @@
     <meta charset="utf-8">
 
     <style type="text/css">
-
-        body, html{
+        body,
+        html {
             margin: 0;
             font: 16px "Lato", sans-serif;
             color: #777;
             height: 100%;
         }
+
         .conteudo {
             color: #777;
             background-color: white;
@@ -20,29 +21,70 @@
             padding: 50px 80px;
         }
 
-        h3{
+        h3 {
             text-transform: uppercase;
             color: #111;
             text-align: center;
         }
-        /* Efeito Parallax */
-        .caixa1, .caixa2{
-            height: 100%;
+
+        p {
+            margin-bottom: 20px;
         }
-        .caixa1{
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .titulo {
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            background-color: #111;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        /* Efeito Parallax */
+        .caixa1,
+        .caixa2,
+        .caixa3,
+        .caixa4 {
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .caixa1 {
             background-image: url(imagens/imagem1.jpg);
         }
 
-        .caixa2{
+        .caixa2 {
             background-image: url(imagens/imagem2.jpg);
         }
 
+        .caixa3 {
+            background-image: url(imagens/imagem3.jpg);
+        }
+
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+        }
     </style>
 </head>
 
 <body>
     <div class="caixa1">
-       caixa1
+        <div class="conteudo-titulo">
+            <span class="titulo"> Passeio de Balões </span>
+        </div>
     </div>
 
     <div class="conteudo">
@@ -54,10 +96,73 @@
             leo sapien, laoreet eu erat eget, venenatis venenatis leo. In eget purus augue. Suspendisse faucibus
             vulputate turpis, quis congue quam egestas ut. Sed dolor quam, lacinia a mi vitae, ullamcorper convallis
             sem.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit cursus urna at egestas. Ut feugiat
+            condimentum enim, ac bibendum felis imperdiet in. Maecenas laoreet venenatis enim. Sed sit amet ante sit
+            amet elit lacinia gravida vel at ipsum. Maecenas dictum mauris elit, at mattis justo imperdiet eget. Nam
+            dignissim nec diam ut faucibus. Aliquam tempor malesuada lorem, feugiat convallis enim consequat a. Aliquam
+            leo sapien, laoreet eu erat eget, venenatis venenatis leo. In eget purus augue. Suspendisse faucibus
+            vulputate turpis, quis congue quam egestas ut. Sed dolor quam, lacinia a mi vitae, ullamcorper convallis
+            sem.</p>
+
     </div>
 
     <div class="caixa2">
-        Caixa 2
+        <div class="conteudo-titulo">
+            <span class="titulo"> Pegando a estrada</span>
+        </div>
+    </div>
+
+    <div class="conteudo"></div>
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit cursus urna at egestas. Ut feugiat
+            condimentum enim, ac bibendum felis imperdiet in. Maecenas laoreet venenatis enim. Sed sit amet ante sit
+            amet elit lacinia gravida vel at ipsum. Maecenas dictum mauris elit, at mattis justo imperdiet eget. Nam
+            dignissim nec diam ut faucibus. Aliquam tempor malesuada lorem, feugiat convallis enim consequat a. Aliquam
+            leo sapien, laoreet eu erat eget, venenatis venenatis leo. In eget purus augue. Suspendisse faucibus
+            vulputate turpis, quis congue quam egestas ut. Sed dolor quam, lacinia a mi vitae, ullamcorper convallis
+            sem.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit cursus urna at egestas. Ut feugiat
+            condimentum enim, ac bibendum felis imperdiet in. Maecenas laoreet venenatis enim. Sed sit amet ante sit
+            amet elit lacinia gravida vel at ipsum. Maecenas dictum mauris elit, at mattis justo imperdiet eget. Nam
+            dignissim nec diam ut faucibus. Aliquam tempor malesuada lorem, feugiat convallis enim consequat a. Aliquam
+            leo sapien, laoreet eu erat eget, venenatis venenatis leo. In eget purus augue. Suspendisse faucibus
+            vulputate turpis, quis congue quam egestas ut. Sed dolor quam, lacinia a mi vitae, ullamcorper convallis
+            sem.</p>
+
+    </div>
+    
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo"> Por do Sol </span>
+        </div>
+    </div>
+
+    <div class="conteudo"></div>
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit cursus urna at egestas. Ut feugiat
+            condimentum enim, ac bibendum felis imperdiet in. Maecenas laoreet venenatis enim. Sed sit amet ante sit
+            amet elit lacinia gravida vel at ipsum. Maecenas dictum mauris elit, at mattis justo imperdiet eget. Nam
+            dignissim nec diam ut faucibus. Aliquam tempor malesuada lorem, feugiat convallis enim consequat a. Aliquam
+            leo sapien, laoreet eu erat eget, venenatis venenatis leo. In eget purus augue. Suspendisse faucibus
+            vulputate turpis, quis congue quam egestas ut. Sed dolor quam, lacinia a mi vitae, ullamcorper convallis
+            sem.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit cursus urna at egestas. Ut feugiat
+            condimentum enim, ac bibendum felis imperdiet in. Maecenas laoreet venenatis enim. Sed sit amet ante sit
+            amet elit lacinia gravida vel at ipsum. Maecenas dictum mauris elit, at mattis justo imperdiet eget. Nam
+            dignissim nec diam ut faucibus. Aliquam tempor malesuada lorem, feugiat convallis enim consequat a. Aliquam
+            leo sapien, laoreet eu erat eget, venenatis venenatis leo. In eget purus augue. Suspendisse faucibus
+            vulputate turpis, quis congue quam egestas ut. Sed dolor quam, lacinia a mi vitae, ullamcorper convallis
+            sem.</p>
+
+    </div>
+
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo"> Montanhas </span>
+        </div>
     </div>
 
 </body>
